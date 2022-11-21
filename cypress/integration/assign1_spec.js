@@ -9,7 +9,7 @@ describe('FlipKartSite', () =>
     })
     it('verifyingelements', () =>
     {
-        cy.get('div#_331-kn_2tvxW>div:nth-of-type(1)').should("have.text","Top Offers")
+        cy.get('div#_331-kn _2tvxW>div:nth-of-type(1)').should("have.text","Top Offers")
         cy.get('div#_331-kn _2tvxW>div:nth-of-type(2)').should("have.text","Grocery")
         cy.get('div#_331-kn _2tvxW>div:nth-of-type(3)').should("have.text","Mobiles")
         cy.get('div#_331-kn _2tvxW>div:nth-of-type(4)').should("have.text","Fashion")
